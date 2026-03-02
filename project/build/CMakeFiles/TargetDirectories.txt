@@ -1,0 +1,3 @@
+/home/imxq/cheetah/project/build/CMakeFiles/cheetah_project.dir
+/home/imxq/cheetah/project/build/CMakeFiles/edit_cache.dir
+/home/imxq/cheetah/project/build/CMakeFiles/rebuild_cache.dir

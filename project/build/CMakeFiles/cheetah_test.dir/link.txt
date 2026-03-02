@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 CMakeFiles/cheetah_test.dir/src/main.cpp.o CMakeFiles/cheetah_test.dir/src/interface/IOSDK.cpp.o CMakeFiles/cheetah_test.dir/src/control/LegController.cpp.o -o ../bin/cheetah_test  -Wl,-rpath,/home/imxq/cheetah/project/lib/unitree_actuator_sdk ../lib/unitree_actuator_sdk/libUnitreeMotorSDK_Linux64.so 
