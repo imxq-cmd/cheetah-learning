@@ -57,9 +57,7 @@ int main(int argc, char** argv) {
         ioInterface->sendRecv(&cmd, &state);
 
         // --- 打印状态 (每 0.5 秒打印一次，避免刷屏) ---
-        // 500Hz 循环 -> 250 次 = 0.5s
         if (count % 250 == 0) {
-            // std::cout << "\033[2J\033[1;1H"; // 清屏 ANSI 码 (可选，根据自己喜好开启)
             std::cout << "Count: " << count << std::endl;
             std::cout << "---------------------------------------------------------" << std::endl;
             std::cout << "|  ID  |    Pos (rad)   |    Vel (rad/s) |   Torque (Nm)  |" << std::endl;
@@ -86,6 +84,4 @@ int main(int argc, char** argv) {
     delete ioInterface;
     return 0;
 }
-
-
 

@@ -12,13 +12,13 @@
  * @brief 单个关节的反馈状态
  */
 struct JointState {
-    double q;    // 实际位置 (rad)
-    double dq;   // 实际速度 (rad/s)
-    double tau;  // 实际力矩 (Nm)
-    int temp;    // 电机温度 (°C)
+    double q;      // 实际位置 (rad)
+    double dq;     // 实际速度 (rad/s)
+    double tauEst; // 实际力矩 (Nm) - 估计值
+    int temp;      // 电机温度 (°C)
 
     JointState() {
-        q = 0.0; dq = 0.0; tau = 0.0; temp = 0;
+        q = 0.0; dq = 0.0; tauEst = 0.0; temp = 0;
     }
 };
 

@@ -68,7 +68,7 @@ void IOSDK::sendRecv(const LowlevelCmd *cmd, LowlevelState *state) {
         if(_motorData[i].correct) {
             state->motorState[i].q = (_motorData[i].q - _offsets[legID](jointID)) / _directions[legID](jointID);
             state->motorState[i].dq = _motorData[i].dq / _directions[legID](jointID);
-            state->motorState[i].tau = _motorData[i].tau / _directions[legID](jointID);
+            state->motorState[i].tauEst = _motorData[i].tau / _directions[legID](jointID);
         }
     }
 }

@@ -4225,24 +4225,6 @@ CMakeFiles/cheetah_project.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
   /usr/include/x86_64-linux-gnu/bits/sigthread.h \
   /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/bits/std_thread.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  ../include/common/robotConfig.h \
-  ../include/common/mathTypes.h \
   /usr/include/c++/11/cmath \
   /usr/include/math.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -4254,6 +4236,33 @@ CMakeFiles/cheetah_project.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/c++/11/ctime \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  ../include/common/robotConfig.h \
+  ../include/common/mathTypes.h \
   /usr/include/c++/11/algorithm \
   /usr/include/c++/11/bits/stl_algo.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
@@ -4537,26 +4546,22 @@ CMakeFiles/cheetah_project.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/bits/stl_uninitialized.h \
   /usr/include/c++/11/bits/stl_vector.h \
   /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  ../include/control/LegController.h \
-  ../include/FSM/FSMController.h \
-  ../include/FSM/FSMState.h \
-  ../include/common/enumClass.h \
-  ../include/FSM/ControlFSMData.h \
-  ../include/FSM/FSMState_Passive.h \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/erase_if.h
+  /usr/include/c++/11/bits/vector.tcc
 
+
+/usr/include/c++/11/bits/parse_numbers.h:
+
+/usr/include/c++/11/ratio:
 
 /usr/include/c++/11/bits/this_thread_sleep.h:
 
+/usr/include/c++/11/bits/std_thread.h:
+
+/usr/include/c++/11/thread:
+
 /usr/include/c++/11/bits/unique_ptr.h:
 
-/usr/include/c++/11/bits/std_thread.h:
+/usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
 /usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
 
@@ -4738,6 +4743,8 @@ CMakeFiles/cheetah_project.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
+/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
+
 /usr/include/c++/11/bits/basic_ios.h:
 
 /usr/include/eigen3/Eigen/src/Core/Swap.h:
@@ -4753,6 +4760,8 @@ CMakeFiles/cheetah_project.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/eigen3/Eigen/src/Core/util/XprHelper.h:
 
 /usr/include/c++/11/cctype:
+
+/usr/include/c++/11/iomanip:
 
 /usr/include/eigen3/Eigen/src/Core/util/Macros.h:
 
@@ -5130,9 +5139,9 @@ CMakeFiles/cheetah_project.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
 
-/usr/include/x86_64-linux-gnu/bits/termios.h:
-
 ../include/common/mathTypes.h:
+
+/usr/include/libintl.h:
 
 /usr/include/c++/11/bits/char_traits.h:
 
@@ -5374,6 +5383,8 @@ CMakeFiles/cheetah_project.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/PartialReduxEvaluator.h:
 
+/usr/include/c++/11/bits/locale_conv.h:
+
 /usr/include/eigen3/Eigen/src/Core/Random.h:
 
 /usr/include/eigen3/Eigen/src/Core/Replicate.h:
@@ -5453,6 +5464,8 @@ CMakeFiles/cheetah_project.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/Homogeneous.h:
+
+/usr/include/c++/11/bits/codecvt.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:
 
@@ -5556,6 +5569,8 @@ CMakeFiles/cheetah_project.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../include/unitree_actuator_sdk/unitreeMotor/unitreeMotor.h:
 
+/usr/include/c++/11/locale:
+
 ../include/unitree_actuator_sdk/unitreeMotor/include/motor_msg_GO-M8010-6.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
@@ -5634,8 +5649,8 @@ CMakeFiles/cheetah_project.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/signal_ext.h:
 
-/usr/include/c++/11/ratio:
+/usr/include/c++/11/bits/locale_facets_nonio.h:
 
-/usr/include/c++/11/thread:
+/usr/include/x86_64-linux-gnu/bits/termios.h:
 
-/usr/include/c++/11/bits/parse_numbers.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:

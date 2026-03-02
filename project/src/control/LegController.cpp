@@ -18,7 +18,7 @@ void LegController::updateState(const LowlevelState* state) {
         for (int j = 0; j < 3; j++) {
             data[i].q(j) = state->motorState[i * 3 + j].q;
             data[i].dq(j) = state->motorState[i * 3 + j].dq;
-            data[i].tau(j) = state->motorState[i * 3 + j].tau;
+            data[i].tau(j) = state->motorState[i * 3 + j].tauEst;
         }
 
         // 2. 通过正解更新足端位置 (FK)
